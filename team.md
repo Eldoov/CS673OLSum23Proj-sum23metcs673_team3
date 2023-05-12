@@ -8,3 +8,6 @@ Massachusetts. My team is primarily focused on building and maintaining an AWS b
 which can be used to host our enterprise applications. Over the last year I have
 taken an interest in Terraform and have been focused on redesigning our infrastructure deployment pipelines. Outside of work and school
 I enjoy playing hockey, skiing, and hiking.
+
+
+Demo
