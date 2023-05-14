@@ -20,3 +20,13 @@ I hail from Visakhapatnam, a coastal city in India renowned for its scenic beaut
 ---
 I am a Computer Science graduate student with prior experience in working with Agile App-based and Backbone-based frameworks during my internship. My current areas of interest include developing applications based on novel ideas and implementing Machine Learning models.
 
+
+### Jasmine (JasNotTheGenre) Hughes
+
+---
+I'm from PA (Pennsylvania) and I currently live in Lowell, MA. I'm pursuing my Master's in Computer Science and have plans to pursue the Digital Forensics field. For work I take photos of K-12 students for picture day, photograph graduating seniors during their graduation, and do camera work for Harvard Athletics. Water polo, ice hockey, and rugby are my favorite sports to capture thus far. I enjoy playing video games, playing trombone, and crocheting random yet practical items (like trombone dish cloths).
+
+---
+
+
+
