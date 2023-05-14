@@ -13,3 +13,10 @@ I enjoy playing hockey, skiing, and hiking.
 
 ---
 I hail from Visakhapatnam, a coastal city in India renowned for its scenic beauty and serene seas. I made the journey to Boston to pursue my Master's degree, driven by a passion for technology and software development. With two years of experience as a 5G software developer, I have honed my skills in this cutting-edge domain. I like playing football and I seek adventure through challenging hikes and embark on long drives.
+
+
+### Adithya (adithyaprk) Prakash
+
+---
+I am a Computer Science graduate student with prior experience in working with Agile App-based and Backbone-based frameworks during my internship. My current areas of interest include developing applications based on novel ideas and implementing Machine Learning models.
+
