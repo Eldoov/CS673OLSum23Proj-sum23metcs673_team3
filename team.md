@@ -30,4 +30,4 @@ I'm from PA (Pennsylvania) and I currently live in Lowell, MA. I'm pursuing my M
 
 ### Zuowen Tang (Eldoov)
 
-I am a current master's student specializing in Cryptography within the Computer Science Security branch. Despite my technical pursuits now, my academic journey began in the realm of Philosophy and Humanities, giving me a unique perspective on my current field. I'm also very interested in board games and video games. Currently, I'm building a new role-play system called *Torchlight* (like DnD 5e or Pathfinder) with friends. 
+I am a current master's student specializing in Cryptography within the Computer Science Security branch. Despite my technical pursuits now, my academic journey began in the realm of Philosophy and Humanities, giving me a unique perspective on my current field. I'm also very interested in board games and video games. Currently, I'm building a new role-play system called *Torchlight* (like DnD 5e or Pathfinder) with friends. (update for screen-shot)
