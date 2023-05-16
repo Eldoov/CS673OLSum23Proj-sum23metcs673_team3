@@ -14,7 +14,7 @@ I enjoy playing hockey, skiing, and hiking.
 
 ---
 
-I hail from Visakhapatnam, a coastal city in India renowned for its scenic beauty and serene seas. I made the journey to Boston to pursue my Master's degree, driven by a passion for technology and software development. With two years of experience as a 5G software developer, I have honed my skills in this cutting-edge domain. I like playing football and I seek adventure through challenging hikes and embark on long drives.
+I hail from Visakhapatnam, a coastal city in India renowned for its scenic beauty and serene seas. I made the journey to Boston to pursue my Master's degree, driven by a passion for technology and software development. With two years of experience as a 5G software developer, I have honed my skills in this cutting-edge domain and i am interested in Machine learing and AI. I like playing football and I seek adventure through challenging hikes and embark on long drives.
 
 ### Adithya (adithyaprk) Prakash
 
