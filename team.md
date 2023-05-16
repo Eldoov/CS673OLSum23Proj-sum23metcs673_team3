@@ -34,7 +34,7 @@ I am a current master's student specializing in Cryptography within the Computer
 
 ---
 
-## Alekhya Koppineni (alekhyak1)
+### Alekhya Koppineni (alekhyak1)
 
 I am a second year graduate student studying Computer Science with an intrest in Healthcare Informatics. I do not come from an computer sciecne backgorund as in Undergradute 
 degree was in Psychology and Chemistry. For this class, I am currently in team 3 with the requiremnt leader role. I would like to learn a lot from everyone in the class as I would
