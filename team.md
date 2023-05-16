@@ -44,4 +44,4 @@ like you improve my skills. Looking forward to completing this class successfull
 
 ### Abhishek Gupta (abgupta09)
 
-I am a MS CS grad student at BU MET.
+I am a MS CS grad student at BU MET. I am passionate about learning and developement. As an aspiring Software Engineer, this course will be helpfull for developing software engineering life cycle accumen. I hope to take away a lot from this course.
