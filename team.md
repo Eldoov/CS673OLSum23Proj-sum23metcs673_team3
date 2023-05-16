@@ -31,3 +31,12 @@ I'm from PA (Pennsylvania) and I currently live in Lowell, MA. I'm pursuing my M
 ### Zuowen Tang (Eldoov)
 
 I am a current master's student specializing in Cryptography within the Computer Science Security branch. Despite my technical pursuits now, my academic journey began in the realm of Philosophy and Humanities, giving me a unique perspective on my current field. I'm also very interested in board games and video games. Currently, I'm building a new role-play system called *Torchlight* (like DnD 5e or Pathfinder) with friends. (update for screen-shot)
+
+---
+
+## Alekhya Koppineni
+
+I am a second year graduate student studying Computer Science with an intrest in Healthcare Informatics. I do not come from an computer sciecne backgorund as in Undergradute 
+degree was in Psychology and Chemistry. For this class, I am currently in team 3 with the requiremnt leader role. I would like to learn a lot from everyone in the class as I would
+like you improve my skills. Looking forward to completing this class successfully with you all!
+
