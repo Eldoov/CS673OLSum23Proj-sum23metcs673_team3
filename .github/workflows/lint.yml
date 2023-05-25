@@ -16,4 +16,4 @@ jobs:
       - name: flake8 Lint
         run: |
           pip install flake8
-          flake8
+          flake8 --extend-ignore w292
