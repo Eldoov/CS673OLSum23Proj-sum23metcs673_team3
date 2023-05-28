@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
+show_sidebar: false
+menubar: menu
 title: Our Product
-nav_order: 2
+permalink: /project-description/
 ---
 
 ## Calorie Tracking Application

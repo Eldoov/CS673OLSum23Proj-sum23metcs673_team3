@@ -1,0 +1,11 @@
+- label: Menu
+  items:
+    - name: Home
+      link: /
+    - name: Pages
+      link: #
+      items:
+        - name: About Our Team
+          link: /our-team/
+        - name: About Our Product
+          link: /project-description/

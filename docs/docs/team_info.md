@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
+show_sidebar: false
+menubar: menu
 title: Our Team
-nav_order: 1
+permalink: /our-team/
 ---
 
 ## About Team 3
