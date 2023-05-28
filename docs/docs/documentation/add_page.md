@@ -26,3 +26,6 @@ section under items, add a list item for your page.
    - The link parameter should match the permalink you set in your page's header.
 
 5) Commit and push the updates to GitHub and the site will be rebuilt automatically incorporating the changes.
+
+
+If you want to prevew the site as you add your content follow [this guide](https://docs.github.com/en/enterprise-server@3.6/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) to run it locally.
