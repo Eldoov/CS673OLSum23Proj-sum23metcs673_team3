@@ -29,6 +29,7 @@ url: "https://bumetcs673.github.io/CS673OLSum23Proj-sum23metcs673_team3/" # the 
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
+
 plugins:
   - jekyll-feed
   - jekyll-default-layout
