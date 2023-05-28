@@ -9,6 +9,7 @@ permalink: /add-page/
 Adding a documentation page is very simple. All pages a written in markdown
 which is then converted into HTML when the site is published. To create a documentation
 page:
+
 1) create a new markdown file (file with .md extension) in the `docs/documentation` directory by copying the
 `page_template.md` file.
 
