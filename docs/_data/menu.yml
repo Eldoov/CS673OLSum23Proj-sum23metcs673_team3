@@ -2,10 +2,12 @@
   items:
     - name: Home
       link: /
-    - name: Pages
+    - name: Product Documentation
       link: #
       items:
-        - name: About Our Team
-          link: /our-team/
-        - name: About Our Product
-          link: /project-description/
+        - name: Development Tools
+          link: /devops-tools/
+        - name: Setting Up Development Environment
+          link: /dev-env-setup/
+        - name: How To Add a Page
+          link: /add-page/
