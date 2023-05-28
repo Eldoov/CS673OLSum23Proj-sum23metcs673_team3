@@ -36,3 +36,4 @@ gem "webrick", "~> 1.8"
 gem "jekyll-default-layout"
 # gem "just-the-docs"
 gem "bulma-clean-theme"
+gem 'faraday-retry', '~> 2.1'
