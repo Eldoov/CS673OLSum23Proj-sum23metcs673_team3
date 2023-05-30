@@ -38,8 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login',#umamaheswar
-    'debug_toolbar' #umamaheswar
-    
+    'debug_toolbar', #umamaheswar
+    'rest_framework',
+    'rest_framework.authtoken',
+    'django.contrib.sessions',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
+LOGIN_REDIRECT_URL = '/login/homepage/'
 #-------
 #umamaheswar
 INTERNAL_IPS = [
@@ -82,11 +85,17 @@ WSGI_APPLICATION = 'calorietracker.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+#TODO: Write a guide for setting up the DB locally so it can be connected to, for now just comment this out to test without the db connection
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "NAME":"calorie_tracker",
+        "ENGINE": "django.db.backends.postgresql",
+        "HOST":"0.0.0.0",
+        "USER": 'postgres',
+        "PASSWORD":"password"
+        # "OPTIONS": {
+        #     "passfile": ".pgpass",
+        # },
     }
 }
 
@@ -131,3 +140,17 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+        },
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "WARNING",
+    },
+}
