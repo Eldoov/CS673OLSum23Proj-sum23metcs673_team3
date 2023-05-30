@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'login',#umamaheswar
     'debug_toolbar', #umamaheswar
     'rest_framework',
-   'rest_framework.authtoken',
+    'rest_framework.authtoken',
+    'django.contrib.sessions',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
+LOGIN_REDIRECT_URL = '/login/homepage/'
 #-------
 #umamaheswar
 INTERNAL_IPS = [
@@ -88,7 +90,7 @@ DATABASES = {
     "default": {
         "NAME":"calorie_tracker",
         "ENGINE": "django.db.backends.postgresql",
-        "HOST":"localhost",
+        "HOST":"0.0.0.0",
         "USER": 'postgres',
         "PASSWORD":"password"
         # "OPTIONS": {

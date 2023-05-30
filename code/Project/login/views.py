@@ -6,6 +6,7 @@ from rest_framework.authtoken.models import Token
 # from login.models import User
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
+from django.shortcuts import redirect
 # from rest_framework.permissions import IsAuthenticated
 from django.http import HttpResponse #trail #mahesh
 
@@ -29,13 +30,13 @@ def auth_user(request):
     user = authenticate(username=username,password=password)
     if user is not None:
         #This token can only be creted once per user need to look into how to expire it
-        token = Token.objects.create(user=user)
-        print(token.key)
+        # token = Token.objects.create(user=user,)
+        print(user.username)
         data = {
             "user_pass": password,
-            "token": token.key
+            # "token": token.key
         }
-        response = Response(data, status=200)
+        response = redirect('/login/homepage/')
     else:
         data = {
             "user_pass": "unauthorized"
@@ -74,3 +75,6 @@ def create_new_user(request):
         "username":username
     }
     return Response(data,status=200)
+
+def homepage(request):
+    return render(request,"homepage.html")

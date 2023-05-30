@@ -33,4 +33,3 @@ function validateRegistrationForm() {
     // Form is valid
     return true;
   }
-  
