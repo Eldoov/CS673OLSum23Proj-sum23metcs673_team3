@@ -67,17 +67,17 @@ production environment. Configuring the postgres database can be benficial for u
 
 6) Enter the information for the Postgres container
 
-   1) **Name:** can be whatever you like, then click on the connection tab
+   - **Name:** can be whatever you like, then click on the connection tab
    
-   2) **Host:** should be the IP address copied in step 4 from the previous section
+   - **Host:** should be the IP address copied in step 4 from the previous section
    
-   3) **Port:** should be 5432
+   - **Port:** should be 5432
    
-   4) **Username:** postgres
+   - **Username:** postgres
    
-   5) **Password:** password from step 2 in previous section
+   - **Password:** password from step 2 in previous section
    
-   6) Lave all other fields as default and click save
+   - Lave all other fields as default and click save
    
 7) The connection should be saved and the server should be shown in the left-hand navigation
 
@@ -92,11 +92,11 @@ production environment. Configuring the postgres database can be benficial for u
 
 1) First we must configure the container network to ensure that the Postgres container and the Django app can communicate
 
-   1) run `docker network create django-app-network`
+   - run `docker network create django-app-network`
    
-   2) Now add the postgres container to the network run `docker network connect django-app-network postgres-db`
+   - Now add the postgres container to the network run `docker network connect django-app-network postgres-db`
    
-   3) Check the database IP address on the network by running `docker inspect django-app-network` and finding the IPv4Address value of the postgres container
+   - Check the database IP address on the network by running `docker inspect django-app-network` and finding the IPv4Address value of the postgres container
    
 2) Open a terminal in the `/code/Project/` directory
 
