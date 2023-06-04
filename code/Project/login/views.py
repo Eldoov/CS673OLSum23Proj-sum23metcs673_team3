@@ -43,24 +43,6 @@ def auth_user(request):
         }
         response = Response(data, status=403)
 
-    # db_response = User.objects.filter(username=request.data.get("username"))
-    # user = db_response[0]
-    # password = user.password
-    # username = user.username
-    # if password == request.data.get("password"):
-    #     token = Token.objects.create(user=user)
-    #     print(token.key)
-    #     data = {
-    #         "user_pass":password,
-    #         "token":token.key
-    #     }
-    #     response = Response(data,status=200)
-    # else:
-    #     data ={
-    #         "user_pass":"unauthorized"
-    #     }
-    #     response = Response(data,status=403)
-
     # print(user[0])
     return response
 
