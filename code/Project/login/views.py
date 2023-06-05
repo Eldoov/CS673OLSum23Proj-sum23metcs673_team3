@@ -9,18 +9,34 @@ from django.contrib.auth import authenticate
 from django.shortcuts import redirect
 # from rest_framework.permissions import IsAuthenticated
 from django.http import HttpResponse #trail #mahesh
+from django.contrib.auth import login, authenticate
+from django.contrib import messages
 
-# Create your views here.
-
-#umamaheswar
 def user_login(request):
-    return render(request, 'login.html', )
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        # check if user is authenticated
+        user = authenticate(username=username, password=password)
+        if user is None: # if there's no such user, go back to login page
+            login(request, user)
+            response = redirect('/login/user/')
+        else: # otherwise, redirect to homepage
+            response = redirect('/login/homepage/')
+        return response
+    return render(request, 'login.html')
 
-#umamaheswar
+
 def user_register(request):
-    # Handle the registration logic here
-    # You can use Django forms or process the form data manually
+    if request.method == 'POST':
+        username = request.POST['username']
+        email = request.POST['email']
+        raw_password = request.POST['password']
+        user = User.objects.create_user(username, email, raw_password)
+        user.save()
+        return redirect('/login/user/')
     return render(request, 'registration.html')
+
 
 @api_view(['POST'])
 def auth_user(request):
